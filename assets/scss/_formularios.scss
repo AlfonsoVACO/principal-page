@@ -1,0 +1,69 @@
+.dos-columnas{
+	margin-top: 50px;
+}
+.datos{
+	float: left;
+	width: 25%;
+	margin: auto;
+	color:#999;
+}
+.formulario{
+	float: left;
+	width: 50%;
+	margin: auto;
+	color:#999;
+}
+input[type="text"], input[type="tel"], input[type="email"]{
+	width: 250px;
+	height: 40px;
+	margin: 20px 20px;
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 3px;
+	border: 1px solid #eee;
+}
+button[type="submit"]{
+	border-radius: 3px;
+	border: 1px solid lightgreen;
+	background-color: lightgreen;
+}
+textarea{
+	width: 545px;
+	height: 100px;
+	margin: 20px 20px;
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 3px;
+	border: 1px solid #eee;
+}
+.correr{
+	margin: 10px 10px;
+	padding: 10px;
+}
+.formu-ti{
+	margin: 0px 20px;
+	color: #444;
+}
+.datos-contacto{
+	list-style: none;
+	text-align: center;
+  li{
+  	color: #444;
+  	padding-bottom: 5px;
+    i{
+    	color: #85c34a;
+    	font-size: 60px;
+    }
+  }
+}
+.limpia{
+	clear: both;
+}
+footer{
+	clear: both;
+	margin-top: 50px;
+	background: #000;
+	color: #85c34a;
+	text-align: center;
+	padding: 30px;
+}
