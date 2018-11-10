@@ -1,124 +1,118 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto';
-*{
-	box-sizing: border-box;
+.single-icon > i {
+  font-size: 36px;
+  color: #fb397d;
 }
-h1, h2, h4, h5, h6 {
-	text-transform: uppercase;
-	color: #444;
-	font-family: rale;
-	letter-spacing: 1px;
+
+.single-special > h4 {
+  font-size: 22px;
+  color: $principal;
 }
-h2{
-	font-size: 26px;
-	color: #333;
+
+.single-icon {
+  margin-bottom: 25px;
 }
-h3{
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	line-height: 1.5;
-	padding-top:20px;
-	font-weight: normal;
-	color: #777;
-}
-h4{
-	margin-top: 15px;
-	font-size: 16px;
-}
-h5{
-	font-family: 'Roboto', sans-serif;
-	line-height: 1.5;
-	font-weight: normal;
-	padding: 10px 0;
-	font-size: 12px;
-}
-p{
-	color: #888;
-	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-}
-.wap{
-	width: 90%;
-	margin: auto;
-	clear: both;
-}
-.bienvenidos{
-	margin-top: 50px;
-	text-align: center;
-}
-.contenedor-columnas{
-	width: 100%;
-	margin: auto;
-	margin-bottom: 50px;
-}
-.columnasx3{
-	width: 33.333%;
-	float: left;
-	padding: 20px 20px;
-	box-sizing: border-box;
-	margin: auto;
-  img{
-  	width: 100%;
-		border-radius: 4px;
+
+.single-special {
+  > h4 {
+    font-size: 22px;
+    color: $principal;
+    margin-bottom: 15px;
   }
-  i{
-  	float: left;
-  	padding-right: 20px;
-  	color: #444;
+  border: 1px solid #eff2f6;
+  padding: 40px;
+  border-radius: 40px 40px 40px 0px;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+  margin-bottom: 30px;
+}
+
+.special_description_content > h2 {
+  color: $principal;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.single-special {
+  &:hover {
+    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
   }
-  h4{
-  	padding-bottom: 20px;
+  p {
+    margin-bottom: 0;
   }
 }
-.banner-1{
-	width: 100%;
-	background: #1ABC9C;
-	clear: both;
-	padding-top: 30px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 50px;
-	text-align: center;
-	box-sizing: border-box;
-	transition: 0.4s;
-  &:hover{
-  	background: #444;
-  	transition: .4s;
-  }
-  h3{
-  	color: #fff;
-  	font-size: 32px;
-  }
-  a{
-  	text-decoration: none;
-  	margin-left: 20px;
-  	font-weight: bold;
-  	color: #fff;
-  	border-bottom: 2px solid #fff;
-  }
+
+.app-download-area {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 1;
+  flex-basis: 1;
+  margin-top: 50px;
 }
-.banner-2{
-	margin-top: 50px;
-	background: url(../img/5.jpg);
-	float: left;
-	width: 100%;
-	height: 200px;
-	background-repeat:no-repeat; /* No se repetira */
-	background-size:cover; /* Imagen al 100% del ancho */
-	background-attachment: fixed; /* Posicion fija para la imagen */
-	text-align: center;
-	margin-bottom: 50px;
-  h3{
-  	background: rgba(0,0,0,.5);
-  	color: #fff;
-  	font-size: 32px;
-  	height: 100%;
-  	padding-top: 5%;
+
+.app-download-btn {
+  a {
+    border: 1px solid #ddd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 30px 30px 30px 0;
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
-  a{
-  	text-decoration: none;
-  	margin-left: 20px;
-  	font-weight: bold;
-  	color: #fff;
-  	border-bottom: 2px solid #fff;
+  &.active a {
+    border-color: transparent;
+    background-color: #fb397d;
+  }
+  a {
+    &:hover {
+      border-color: transparent;
+      background-color: #fb397d;
+    }
+    i {
+      color: #47425d;
+      font-size: 24px;
+      margin-right: 15px;
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1;
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+      span {
+        font-size: 12px;
+        display: block;
+      }
+    }
+  }
+  &:first-child {
+    margin-right: 20px;
+  }
+  a:hover i {
+    color: #fff;
+  }
+  &.active a {
+    i, p {
+      color: #fff;
+    }
+  }
+  a:hover p {
+    color: #fff;
   }
 }
