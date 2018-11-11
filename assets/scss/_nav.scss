@@ -43,7 +43,7 @@
     color: #fff;
     font-weight: 500;
     display: inline-block;
-    border: 2px solid #a883e9;
+    border: 2px solid $cornerlog;
     height: 50px;
     min-width: 178px;
     line-height: 46px;
@@ -61,7 +61,7 @@
 }
 
 .header_area.sticky {
-  background-color: #884bdf;
+  background-color: $nav;
   -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   height: 70px;
